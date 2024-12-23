@@ -4,7 +4,7 @@
 <h2><font size=3>Comprehensive Multi-Modal Prototypes are Simple and Effective Classifiers <br> for Vast-Vocabulary Object Detection</h2>
 <h4>
 
-Yitong Chen<sup>1,2*</sup>, [Wenhao Yao](https://william-yao-2000.github.io/)<sup>1*</sup>, [Lingchen Meng](https://menglcool.github.io/)<sup>1*</sup>, Sihong Wu<sup>1</sup>, [Zuxuan Wu](https://xpqiu.github.io/en.html)<sup>1,2&dagger;</sup>, [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>1</sup>,
+Yitong Chen<sup>1,2*</sup>, [Wenhao Yao](https://william-yao-2000.github.io/)<sup>1*</sup>, [Lingchen Meng](https://menglcool.github.io/)<sup>1*</sup>, Sihong Wu<sup>1</sup>, [Zuxuan Wu](https://zxwu.azurewebsites.net/)<sup>1,2&dagger;</sup>, [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>1</sup>,
 
 <sup>1</sup> Shanghai Key Lab of Intell. Info. Processing, School of CS, Fudan University, <br>
 <sup>2</sup> Shanghai Innovation Institute
