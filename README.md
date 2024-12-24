@@ -11,7 +11,7 @@ Yitong Chen<sup>1,2*</sup>, [Wenhao Yao](https://william-yao-2000.github.io/)<su
 
  <sup>*</sup> Equal contributions; <sup>&dagger;</sup> Corresponding author.
 
-[[`Paper AAAI-25`]()] 
+[[`Paper AAAI-25`](https://arxiv.org/abs/2412.17800)] 
 [[ `Checkpoints`(Coming soon)](#models)] 
 </div>
 
