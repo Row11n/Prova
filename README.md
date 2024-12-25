@@ -113,5 +113,10 @@ Thanks for these excellent opensource projects:
 
 If you find this project useful for your research, please use the following BibTeX entry.
 ```bibtex
-
+@inproceedings{prova2025,
+  title={Comprehensive Multi-Modal Prototypes are Simple and Effective Classifiers for Vast-Vocabulary Object Detection},
+  author={Chen, Yitong and Yao, Wenhao and Meng, Lingchen and Wu, Sihong and Wu, Zuxuan and Jiang, Yu-Gang},
+  booktitle={AAAI},
+  year={2025}
+}
 ```
