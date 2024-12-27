@@ -12,7 +12,7 @@ Yitong Chen<sup>1,2*</sup>, [Wenhao Yao](https://william-yao-2000.github.io/)<su
  <sup>*</sup> Equal contributions; <sup>&dagger;</sup> Corresponding author.
 
 [[`Paper AAAI-25`](https://arxiv.org/abs/2412.17800)] 
-[[ `Checkpoints`(Coming soon)](#models)] 
+[[ `Checkpoints`](#models)] 
 </div>
 
 
@@ -40,7 +40,7 @@ python setup.py build install --user
 cd ../../..
 ```
 ### Multi-Modal Prototypes
-The [prototypes]() should be organized as:
+The [prototypes](https://huggingface.co/Row11n/Prova/tree/main) should be organized as:
 ```
 Prova
   └── prototypes
@@ -66,7 +66,7 @@ Prova
           ├── v3det_2023_v1_val.json
           └── v3det_2023_v1_val_tiny.json  
 ```
-[v3det_2023_v1_val_tiny.json]() is a subset for v3det val set and utilized to speed validation process up.
+[v3det_2023_v1_val_tiny.json](https://huggingface.co/Row11n/Prova/resolve/main/v3det_2023_v1_val_tiny.json?download=true) is a subset for v3det val set and utilized to speed validation process up.
 
 ### Training
 Train DINO-Prova in supervised setting w/o ImageNet:
@@ -91,17 +91,17 @@ python evaluation/eval_v3det.py your/output_dir/full_eval/bbox_pred.json | tee -
 | Model  | Backbone | Epochs | $AP$ | $AP_{50}$| $AP_{75}$| Config | Download |
 | ------ | -------- | ------- | ------ | ------ | ----- | ----- | ----- |
 | DINO | RN50  |24 | 33.5 | 37.7 | 35.0 | - | - |
-| DINO-Prova | RN50 | 24 | 36.4 | 41.3 | 38.1 | [config](config/Prova/prova_r50_1k_v3det.py) | [model]() |
+| DINO-Prova | RN50 | 24 | 36.4 | 41.3 | 38.1 | [config](config/Prova/prova_r50_1k_v3det.py) | [model](https://huggingface.co/Row11n/Prova/resolve/main/DINO-Prova_r50_supervised.pth?download=true) |
 | DINO | SwinBase  |24 | 42.0 | 46.8 | 43.9 | - | - |
 | DINO-Prova | SwinBase | 24 | 44.5 | 49.9 | 46.6 | [config](config/Prova/prova_swinb_1k_v3det.py) | - |
-| DINO-Prova-22K | SwinBase-22k | 24 | 50.3 | 56.1 | 52.6 | [config](config/Prova/prova_swinb_22k_v3det_w_inet.py) | [model]() |
+| DINO-Prova-22K | SwinBase-22k | 24 | 50.3 | 56.1 | 52.6 | [config](config/Prova/prova_swinb_22k_v3det_w_inet.py) | [model](https://huggingface.co/Row11n/Prova/resolve/main/DINO-Prova_swinb_supervised.pth?download=true) |
 
 ### Prova on Open-Vocabulary V3Det
 | Model  | Backbone | Epochs | $AP_{base}$ | $AP_{novel}$| $AP_{final}$| Config | Download |
 | ------ | -------- | ------- | ------ | ------ | ----- | ----- | ----- |
 | DINO* | [R50-22k](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ImageNet_21K_P/models/resnet50_miil_21k.pth)  |24 | 19.0 | 1.9 | 10.5 | - | - |
 | DINO-Prova | [R50-22k](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ImageNet_21K_P/models/resnet50_miil_21k.pth) | 24 | 31.4 | 9.5 | 20.5 | [config](config/Prova/prova_r50_22k_v3det_ovd.py) | - |
-| DINO-Prova-22K |  [R50-22k](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ImageNet_21K_P/models/resnet50_miil_21k.pth)| 24 | 32.8 | 11.0 | 21.9 | [config](config/Prova/prova_r50_22k_v3det_ovd_w_inet.py) | [model]() |
+| DINO-Prova-22K |  [R50-22k](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ImageNet_21K_P/models/resnet50_miil_21k.pth)| 24 | 32.8 | 11.0 | 21.9 | [config](config/Prova/prova_r50_22k_v3det_ovd_w_inet.py) | [model](https://huggingface.co/Row11n/Prova/resolve/main/DINO-Prova_ovd.pth?download=true) |
 
 ## Acknowledgement
 Thanks for these excellent opensource projects: 
